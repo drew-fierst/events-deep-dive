@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['src/*']
+    paths: ['src/*', 'public/*', 'index.html']
 jobs:
   deploy:
     runs-on: ubuntu-latest
